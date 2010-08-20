@@ -1,0 +1,49 @@
+Simple meta-package to install the OE requirements for OpenEmbedded 
+development on an Ubuntu workstation.
+
+You can use the .deb directly or grab the whole project, modify
+the DEBIAN/control file and then rebuild the .deb file yourself
+with your own customizations.
+
+If you are customizing, then run the following command to build
+a new package.
+
+$ cd oe-build-essentials-project
+$ dpkg-deb -b oe-build-essentials
+
+To install the oe-build-essentials.deb run the following:
+
+$ sudo dpkg -i oe-build-essentials.deb
+$ sudo apt-get -f install
+
+The apt-get call does the real installation and will give you a
+list of what's going to happen and a chance to abort.
+
+
+The default packages are directly from the Gumstix developer site
+http://www.gumstix.net the Setup and Programming link for Overos.
+It works for Beagleboards.
+
+Here's the package list
+git-core
+git-doc
+subversion
+build-essential
+help2man
+diffstat
+texi2html
+texinfo
+libncurses5-dev
+cvs
+gawk
+python-dev
+python-pysqlite2
+unzip
+chrpath
+ccache
+sgmlspl
+
+I added sgmlspl because of a temporary recipe dependency problem.
+
+I also added ckermit as a RECOMMENDS because that's what I use.
+
