@@ -13,7 +13,7 @@ Last tested with Ubuntu 10.10.
 Checkout
 -------
 
-Checkout the project from github or just copy the files you want.
+Checkout the project from github like this
 
     $ git clone git://github.com/scottellis/oe-build-essentials-project.git
     
@@ -22,7 +22,9 @@ Usage
 -------
 
 If you just want to check for missing packages, you can use the check-installed.py
-script. Just run it with no arguments. You should hopefully get a listing like this.
+script. 
+
+Run it with no arguments. You should hopefully get a listing like this.
 
 	scott@quad:~/examples/oe-build-essentials-project$ ./check-installed.py 
 
