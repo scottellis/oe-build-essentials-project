@@ -1,12 +1,11 @@
 Package: oe-build-essentials
-Version: 0.1
+Version: 0.2
 Section: main
 Priority: standard
 Architecture: all
-Depends: git-core, git-doc, subversion, build-essential, help2man,
+Depends: git, git-doc, subversion, build-essential, patch, help2man,
 	diffstat, texi2html, texinfo, libncurses5-dev, cvs, gawk,
-	python-dev, python-pysqlite2, unzip, chrpath, ccache,
-	sgmlspl
+	python-dev, python-pysqlite2, unzip, chrpath, ccache
 Recommends: ckermit
 Maintainer: Scott Ellis <scott@jumpnowtek.com>
 Description: Base install meta package for OE Gumstix development
