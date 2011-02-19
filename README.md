@@ -59,18 +59,17 @@ The meta-package oe-build-essentials.deb can be used to install all or just the
 missing packages on your Ubuntu system. 
 
 If you did a git checkout of this project, the you could also customize the
-package by editing the oe-build-essentials/DEBIAN/control file and rebuilding
-the deb file.
+package first by editing the oe-build-essentials/DEBIAN/control file and 
+rebuilding the deb.
 
 
-If you are customizing, then after your edits, run the following command to 
-rebuild the deb.
+If you are customizing, after your edits, run the following command to rebuild
 
     $ cd oe-build-essentials-project
     $ dpkg-deb -b oe-build-essentials
 
 
-To install the oe-build-essentials.deb run the following:
+To install the oe-build-essentials.deb package, run the following:
 
     $ sudo dpkg -i oe-build-essentials.deb
     $ sudo apt-get -f install
@@ -83,7 +82,7 @@ going to happen and a chance to abort before it does anything.
 Package List
 -------
 
-The list of packages come from the Gumstix recommendations here
+The list of packages come from the Gumstix recommendations here - 
 <a href="http://www.gumstix.org/software-development/open-embedded/61-using-the-open-embedded-build-system.html">
 Using the Open Embedded Build System</a>
 
