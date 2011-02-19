@@ -54,6 +54,7 @@ script. Just run it with no arguments. You should hopefully get a listing like t
 	<none>
 
 
+
 The meta-package oe-build-essentials.deb can be used to install all or just the
 missing packages on your Ubuntu system. 
 
@@ -61,24 +62,28 @@ If you did a git checkout of this project, the you could also customize the
 package by editing the oe-build-essentials/DEBIAN/control file and rebuilding
 the deb file.
 
+
 If you are customizing, then after your edits, run the following command to 
 rebuild the deb.
 
     $ cd oe-build-essentials-project
     $ dpkg-deb -b oe-build-essentials
 
+
 To install the oe-build-essentials.deb run the following:
 
     $ sudo dpkg -i oe-build-essentials.deb
     $ sudo apt-get -f install
 
+
 The apt-get call does the real installation and will give you a list of what's
 going to happen and a chance to abort before it does anything.
+
 
 Package List
 -------
 
-The list of packages come from the Gumstix recommendations here
+The list of packages come from the Gumstix recommendations here: 
 http://www.gumstix.org/software-development/open-embedded/61-using-the-open-embedded-build-system.html
 
 Here's the list
