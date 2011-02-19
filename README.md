@@ -1,13 +1,14 @@
   oe-build-essentials
 =======
 
-A simple meta-package to install the OE requirements for OpenEmbedded 
-development on an Ubuntu workstation.
+A meta-package to install the OpenEmbedded required packages for doing development 
+on an Ubuntu Linux workstation.
 
-There is an accompanying python script to check the installed packages on
-your workstation.
+There is an accompanying python script for checking the installed packages on
+your workstation without trying to do an install.
 
-Tested with Ubuntu 10.10
+Last tested with Ubuntu 10.10.
+
 
 Checkout
 -------
