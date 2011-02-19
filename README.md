@@ -83,8 +83,9 @@ going to happen and a chance to abort before it does anything.
 Package List
 -------
 
-The list of packages come from the Gumstix recommendations here: 
-http://www.gumstix.org/software-development/open-embedded/61-using-the-open-embedded-build-system.html
+The list of packages come from the Gumstix recommendations here
+<a href="http://www.gumstix.org/software-development/open-embedded/61-using-the-open-embedded-build-system.html">
+Using the Open Embedded Build System</a>
 
 Here's the list
 
